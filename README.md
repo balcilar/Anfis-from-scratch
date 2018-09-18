@@ -6,7 +6,9 @@ In demo1, we used 2 fuzzy set for representing the inputs. Here is the results o
 
 ![Sample image](Output/demo1.jpg?raw=true "Title")
 
+In demo2, we used 4 fuzzy set for representing the inputs. Here is the results of Demo2.m script.
 
+![Sample image](Output/demo2.jpg?raw=true "Title")
 
 
 # Reference
