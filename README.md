@@ -14,6 +14,8 @@ We provided two different demos. The first one for 216 elements, 3 input, 1 outp
 
 ![Sample image](Output/connections.jpg?raw=true "Title")
 
+After training network, the estimated premise parameter are shown by following figure. Since we have 3 inputs and each input modelled with 2 different fuzzy set, we have 3 plot and each plot has 2 membership function.
+
 ![Sample image](Output/memberships.jpg?raw=true "Title")
 
 
