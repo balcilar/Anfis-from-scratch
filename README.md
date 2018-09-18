@@ -1,6 +1,16 @@
-# Adaptive neuro fuzzy inference system (ANFIS) from scratch
+# Adaptive Neuro Fuzzy Inference System (ANFIS) from scratch
 
-This repository consists of the full source code of Adaptive neuro-fuzzy inference system from scratch. The method originally described in [1]. It does not depend on Matlab toolbox. every single detail was coded in Matlab. You can compare our result by Matlab toolbox's equivalent results. We also provided two different demos. The first one for 216 elements, 3 input, 1 output data. The second demo is for 121 elements, 2 inputs, 1 output data.
+This repository consists of the full source code of Adaptive neuro-fuzzy inference system from scratch. The method originally described in [1]. It does not depend on Matlab toolbox. every single detail was coded in Matlab. You can compare our result by Matlab toolbox's equivalent results. 
+
+According to ANFIS theory it has 5 layer excluded input layer as it shown by following figure [1].
+
+![Sample image](Output/demo1.jpg?raw=true "Title")
+
+
+
+
+
+We also provided two different demos. The first one for 216 elements, 3 input, 1 output data. The second demo is for 121 elements, 2 inputs, 1 output data.
 
 In demo1, we used 2 fuzzy set for representing the inputs. Here is the results of Demo1.m script.
 
