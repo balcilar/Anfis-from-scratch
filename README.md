@@ -10,6 +10,7 @@ In demo2, we used 4 fuzzy set for representing the inputs. Here is the results o
 
 ![Sample image](Output/demo2.jpg?raw=true "Title")
 
+In all two demo, we used 100 number of iterations. Since the provided projects does not support any other membership function, we necessarily used Generalized bell-shaped membership function (gbellmf) which can be described by 3 parameters.
 
 # Reference
 [1] Jang, J-SR. "ANFIS: adaptive-network-based fuzzy inference system." IEEE transactions on systems, man, and cybernetics 23.3 (1993): 665-685.
