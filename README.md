@@ -4,7 +4,7 @@ This repository consists of the full source code of Adaptive neuro-fuzzy inferen
 
 According to ANFIS theory it has 5 layer excluded input layer as it shown by following figure [1].
 
-![Sample image](Output/demo1.jpg?raw=true "Title")
+![Sample image](Output/anfis.jpg?raw=true "Title")
 
 
 
