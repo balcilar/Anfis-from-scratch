@@ -18,10 +18,36 @@ After training network, the estimated premise parameter are shown by following f
 
 ![Sample image](Output/memberships.jpg?raw=true "Title")
 
+To show the estimated paramters, you can check them by following command.
 
-The second demo is for 121 elements, 2 inputs, 1 output data.
+```
+>> bestnet.mparams
 
-In demo1, we used 2 fuzzy set for representing the inputs. Here is the results of Demo1.m script.
+ans =
+
+    0.3161    0.5914   -0.1318
+    1.2933    0.6453    6.1674
+    0.2330    0.7558   -0.0393
+    1.3592    0.3542    6.2053
+    0.1619    1.0083    0.1323
+    1.3913    0.5173    6.1012
+
+>> bestnet.kparams
+
+ans =
+
+   25.6053   10.4837   34.9184   49.7327
+    3.2049  -11.1786    0.0302   20.0289
+    4.3492    0.3341    1.2617   25.2821
+    1.7483   -0.3359   -0.0201    4.9561
+    8.9303  -12.6436   45.8124   46.3622
+    2.7314  -14.4454   -0.0334   30.3140
+    3.8722   -0.4706   22.2196   28.2463
+    1.4949   -0.4744   -0.0152    7.9351
+    
+```
+
+Finally you can find the results of Demo1.m script.
 
 ![Sample image](Output/demo1.jpg?raw=true "Title")
 
