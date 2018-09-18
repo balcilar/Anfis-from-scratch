@@ -12,7 +12,7 @@ Although the ANFIS network is quite large and has too many connection for high n
 
 We provided two different demos. The first one for 216 elements, 3 input, 1 output data. We used 2 fuzzy sets for each input variable which means N=3 and M=2. In that configuration, the network has total 34 nodes. Here is the nodes and its connections map. Connected nodes are shown by yellow color.
 
-![Sample image](Output/connections.jpg?raw=true "Title")
+![Sample image](Output/connection.jpg?raw=true "Title")
 
 After training network, the estimated premise parameter are shown by following figure. Since we have 3 inputs and each input modelled with 2 different fuzzy set, we have 3 plot and each plot has 2 membership function.
 
