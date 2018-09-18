@@ -18,7 +18,7 @@ After training network, the estimated premise parameter are shown by following f
 
 ![Sample image](Output/memberships.jpg?raw=true "Title")
 
-To show the estimated paramters, you can check them by following command.
+To show the estimated paramters, you can check mparams variable for premise parameter or kparams variable for consequent parameters of the trained network object named bestnet.
 
 ```
 >> bestnet.mparams
