@@ -18,6 +18,9 @@ data=load('Input/data2input.trn');
 % run our anfis model
 [bestnet,y_myanfis,RMSE]=myanfis(data,epoch_n,mf,step_size,decrease_rate,increase_rate);
 
+% make prediction
+y_myanfis=evalmyanfis(bestnet,data(:,1:end-1));
+
 % plot error decreasing
 figure;plot(RMSE,'LineWidth',2);xlabel('iteration');
 ylabel('rmse');title('Error by iteration');
@@ -36,18 +39,3 @@ rmse1=sqrt(sum((y_myanfis-data(:,end)).^2)/size(data,1));
 
 msg=['Total rmse error myanfis:' num2str(rmse1)];
 title(msg);
-
-
-
-
-
-
-
-
-
-     
-
-
-
-
-
