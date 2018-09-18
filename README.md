@@ -8,7 +8,7 @@ According to ANFIS theory it has 5 layer excluded input layer as it shown by fol
 
 ![Sample image](Output/anfis.jpg?raw=true "Title")
 
-Although the ANFIS network is quite large and has to many connection for high numbe rof fuzzy set and input variable, most of the parameters are not trainable, only a few of the is trainable which means ANFIS's degree of freedom is quite low according to aquivalent Artificial Neural Network (ANN) architectures. In Anfis architecture, just membership functions parameters in Layer1 and inputs weight in Layer 4 are to be estimated by traning algorithm. that means in our example case, if we use Generalized bell-shaped membership function (gbellmf) which is described by 3 parameters, we need to estimate *3xMxN* premise parameters in Layer1 and *NxM^N* consequent weight parameters in Layer4. 
+Although the ANFIS network is quite large and has too many connection for high number of fuzzy set and input variable, most of the parameters are not trainable, only a few of the is trainable which means ANFIS's degree of freedom is quite low according to aquivalent Artificial Neural Network (ANN) architectures. In Anfis architecture, just membership functions parameters in Layer1 and inputs weight in Layer 4 are to be estimated by traning algorithm. that means in our example case, if we use Generalized bell-shaped membership function (gbellmf) which is described by 3 parameters, we need to estimate *3xMxN* premise parameters in Layer1 and *NxM^N* consequent weight parameters in Layer4. 
 
 # Results
 
