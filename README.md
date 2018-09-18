@@ -4,7 +4,7 @@ This repository consist of full source code of Adaptive neuro fuzzy inference sy
 
 In demo1, we used 2 fuzzy set for representing the inputs. Here is the results of Demo1.m script.
 
-![Sample image](Output/Demo1.jpg?raw=true "Title")
+![Sample image](Output/demo1.jpg?raw=true "Title")
 
 
 
